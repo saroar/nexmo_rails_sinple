@@ -15,12 +15,13 @@ gem 'devise-i18n'
 gem 'haml-rails'
 gem 'pg'
 gem 'simple_form'
-
+gem 'rails-i18n'
 gem 'jquery-turbolinks'
 gem 'nprogress-rails'
 gem 'compass-rails'
 gem 'font-awesome-rails'
 gem 'nexmo'
+gem 'sqlite3'
 
 group :development do
   gem 'better_errors'
