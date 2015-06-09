@@ -1,0 +1,7 @@
+%h1 認証コードを入力してください
+= simple_form_for @user, url: verification_users_path, method: :post do |f|
+  = f.input :verification_code_confirmation
+  = f.submit
+
+= link_to 'SMSが届かないかたはこちら', call_verification_code_users_path
+%p 上記リンクをクリックすると機械音声で認証コードをお知らせする電話をかけます。

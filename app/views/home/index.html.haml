@@ -1,0 +1,11 @@
+%h1 NEXMOの動作サンプル
+
+
+- if user_signed_in?
+  = current_user.name
+  = link_to '電話番号を更新する', edit_phone_number_users_path, class: 'btn btn-lg btn-primary'
+  %p
+    - if current_user.verified?
+      #{current_user.verified_at.strftime('%Y/%m/%d %H:%M')}に電話番号認証済み
+    - else
+      電話番号未認証
