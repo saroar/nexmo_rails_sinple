@@ -8,7 +8,6 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
-gem 'spring',        group: :development
 gem 'bootstrap-sass'
 gem 'devise'
 gem 'devise-i18n'
@@ -21,7 +20,7 @@ gem 'nprogress-rails'
 gem 'compass-rails'
 gem 'font-awesome-rails'
 gem 'nexmo'
-gem 'sqlite3'
+
 
 group :development do
   gem 'better_errors'
@@ -31,7 +30,8 @@ group :development do
   gem 'rails_layout'
   gem 'spring-commands-rspec'
   gem 'letter_opener'
-  gem 'heroku_san', git: 'git://github.com/jphenow/heroku_san', branch: 'bug/wrong-ruby-version-loaded'
+  gem 'spring'
+  gem 'sqlite3'
 end
 group :development, :test do
   gem 'factory_girl_rails'

@@ -1,12 +1,3 @@
-GIT
-  remote: git://github.com/jphenow/heroku_san
-  revision: ca2e086024fe7d44598173af93c55d37e9e3431d
-  branch: bug/wrong-ruby-version-loaded
-  specs:
-    heroku_san (4.2.5)
-      heroku-api (>= 0.1.2)
-      rake
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -97,7 +88,6 @@ GEM
     devise-i18n (0.12.0)
     diff-lcs (1.2.5)
     erubis (2.7.0)
-    excon (0.45.3)
     execjs (2.5.2)
     factory_girl (4.5.0)
       activesupport (>= 3.0.0)
@@ -117,9 +107,6 @@ GEM
       haml (>= 4.0.6, < 5.0)
       html2haml (>= 1.0.1)
       railties (>= 4.0.1)
-    heroku-api (0.3.23)
-      excon (~> 0.44)
-      multi_json (~> 1.8)
     hike (1.2.3)
     html2haml (2.0.0)
       erubis (~> 2.7.0)
@@ -280,7 +267,6 @@ DEPENDENCIES
   faker
   font-awesome-rails
   haml-rails
-  heroku_san!
   html2haml
   jbuilder (~> 2.0)
   jquery-rails
